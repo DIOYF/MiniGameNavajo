@@ -1,6 +1,6 @@
 ### Requests Install:
 
-```python
+```shell
 # python >= 3.6
 pip install pygame
 pip intall pytmx
@@ -10,7 +10,7 @@ pip intall pytmx
 
 ### Run:
 
-```python
+```shell
 python -m main.py
 ```
 
@@ -20,11 +20,12 @@ python -m main.py
 
 Note you need pip install pyinstaller
 
-"dist" file is generate by this command:
 
-```python
+
+```shell
 pyinstaller -F - w main.py
 # Note asset copy into dist file.
+# "dist" file is generate by this command:
 ```
 
 
