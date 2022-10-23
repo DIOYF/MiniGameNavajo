@@ -18,6 +18,8 @@ python -m main.py
 
 ### Pack File:
 
+Note you need pip install pyinstaller
+
 "dist" file is generate by this command:
 
 ```python
